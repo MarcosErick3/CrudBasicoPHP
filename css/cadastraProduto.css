@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden
+}
+
+body {
+    background-color: #fdefd2;
+}
+
+#nav {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+#nav {
+    list-style: none;
+}
+
+.nav-item li,
+a {
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: #0000ff94;
+}
+
+\\MAIN main {
+    margin-top: 5%;
+}
+
+#form {
+    background-color: #fafafa;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 800px;
+    height: auto;
+    margin: 40px auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.form-main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.input-column {
+    width: calc(50% - 15px);
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+
+.input-group label {
+    font-family: 'Bitter', sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+.botao {
+    text-align: center;
+}
+
+.btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
